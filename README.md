@@ -138,7 +138,7 @@ Considerando um ambiente _shell_, garanta que os seguintes comandos já foram ex
   ```console
   sudo apt update
   ```
-  - Instale o `curl` para facilitar a instalação do compilador da linguagem `Rust`: 
+  - Instale o `curl` para facilitar a instalação do compilador da linguagem `Julia`: 
   ```console
   sudo apt install curl
   ```
@@ -155,7 +155,7 @@ Considerando um ambiente _shell_, garanta que os seguintes comandos já foram ex
 
 Com o ambiente preparado, os seguintes passos são para a instalação, compilação e execução do programa localmente:
 
-1. Clone o repositório no diretório desejado e acesse a pasta src/:
+1. Clone o repositório no diretório desejado:
   ```console
   git clone https://github.com/Seminario-Radix-Sort/radix-julia.git
   cd radix-julia
