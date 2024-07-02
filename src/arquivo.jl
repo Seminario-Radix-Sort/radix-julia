@@ -26,7 +26,7 @@ end
 
 function escritaArquivo(nomeArquivo::String, tabelaSaida::String)
     try
-        df = Dates.DateFormat("dd-mm-yyyy-HH:MM:SS")
+        df = Dates.DateFormat("dd-mm-yyyy-HH-MM-SS")
         dataFormatada = Dates.format(Dates.now(), df)
         nomeArquivo = nomeArquivo * "-" * dataFormatada * ".csv"
         arq = open(nomeArquivo, "w")
